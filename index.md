@@ -1,0 +1,52 @@
+---
+layout: default
+title: Home
+---
+<style>
+    td.home {
+        background-color: white;
+        border: none;
+    }
+    div.row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    div.col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="desktop">
+    <div class="row">
+        <img src="me.jpeg" alt="Picture" style="width:30%; max-height: 100%; padding: 20px;">
+        <div>
+            I'm Anish Banerjee, a final year undergraduate in Computer Science and Engineering at the Indian Institute of Technology, Delhi. <br>
+            You can navigate the webpage by clicking on the sidebar (top left corner).<br>
+            I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
+        </div>
+    </div>
+</div>
+<div class="mobile">
+    <div class="col">
+        <img src="me.jpeg" alt="Picture" style="width:90%; max-height: 90%;">
+        <div>
+            I'm Anish Banerjee, a final year undergraduate in Computer Science and Engineering at the Indian Institute of Technology, Delhi. <br>
+            You can navigate the webpage by clicking on the sidebar (top left corner).<br>
+            I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
+        </div>
+    </div>
+</div>
+You can contact me at <code>firstnamelastname2002@gmail.com</code>.
+<br><br><br>
+A big thanks to <a href="https://arponbasu.github.io/">Arpon Basu</a> for lending his website template!
+<br><br>
+<!-- <p>
+    <a href="https://info.flagcounter.com/MkU0"><img
+            src="https://s11.flagcounter.com/count2/MkU0/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/"
+            alt="Flag Counter" border="0"></a>
+</p> -->

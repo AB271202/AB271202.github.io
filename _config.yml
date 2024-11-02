@@ -3,7 +3,7 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 
 # Setup
-title:               Arpon Basu
+title:               Anish Banerjee
 tagline:             
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
@@ -12,7 +12,7 @@ markdown:            kramdown
 
 # About/contact
 author:
-  name:              Arpon Basu
+  name:              Anish Banerjee
 
 # Custom vars
 version:             1.0.0
@@ -30,11 +30,11 @@ version:             1.0.0
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "arpon.basu@gmail.com"
-  github: arponbasu
+  email: "anishbanerjee2002@gmail.com"
+  github: AB271202
+  linkedin: "https://www.linkedin.com/in/anish-banerjee-65442824a/"
 #  twitter: yourname
 #  reddit: yourname
-#  linkedin: yourname
 #  spotify: 
 #  telephone: 
 #  steam: 

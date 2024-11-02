@@ -5,7 +5,7 @@ title: Writings
 Here are some expository writings of mine over the years.<br>
 Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
 
-<h2>Undergraduate Writings</h2>
+<!-- <h2>Undergraduate Writings</h2>
 <ol type="1">
     <li>
         <a href="./Expository_Writings/log_concave_polynomials.pdf" target="_blank">Log-Concave Polynomials</a> <a
@@ -233,7 +233,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
             in an automata theory course.
         </div>
     </li>
-</ol>
+</ol> -->
 
 <!-- <h2>High School and Early Undergraduate Writings</h2>
 <ol type="1">

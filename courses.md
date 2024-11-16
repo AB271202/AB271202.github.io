@@ -5,11 +5,9 @@ title: List of Courses
 
 Here are some courses I have taken, or am taking right now. Course codes which start with the digit 6 are for advanced undergraduates, and courses which start with digits 7 or higher are PhD level courses.
 
-
 * COL202: Discrete Mathematical Structures
 * COL106: Data Structures and Algorithms
 * COL341: Analysis and Design of Algorithms
-* CS 228: Logic for Computer Science
 * CS 310: Automata Theory
 * COL333: Artificial Intelligence
 * CS 406: Cryptography

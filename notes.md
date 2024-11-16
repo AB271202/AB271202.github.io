@@ -2,8 +2,20 @@
 layout: page
 title: Writings
 ---
-Here are some expository writings of mine over the years.<br>
+Here are some expository writings and presentations of mine over the years.
+
 Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
+
+## Presentations
+1. [Quantum Money](./Presentations/Quantum_Money.pdf){:target="_blank"} [Description](#){:style="cursor: pointer;" onclick='myFunction("log-conc_desc")'}
+    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="log-conc_desc">
+        Prepared a presentation on quantum money based on [this](https://cacm.acm.org/research/quantum-money/) article.
+    </div>
+2. [Quantum Logspace Computations are Verifiable](./Presentations/QL_Verification.pdf){:target="_blank"} [Description](#){:style="cursor: pointer;" onclick='myFunction("log-conc_desc")'}
+    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="log-conc_desc">
+        Prepared a presentation on QL Verification based on [this](https://arxiv.org/pdf/2307.11083) paper.
+    </div>
+
 
 <!-- <h2>Undergraduate Writings</h2>
 <ol type="1">
@@ -268,7 +280,6 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
         </div>
     </li>
 </ol> -->
-
 
 <script>
     function myFunction(name) {

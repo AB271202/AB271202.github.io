@@ -6,7 +6,6 @@ title: Teaching and Service
 <!-- ## Talks and Outreach
 1. Instructed students (grades 8-12) on polynomials and functional equations for Math Olympiads, at a Mathematics Olympiad Orientation Program (December '23) conducted by AEES. Find the recordings of my talks [here](https://www.youtube.com/watch?v=wlj1LZDXABU){:target="_blank"}, and [here](https://www.youtube.com/watch?v=Y1wt6IJM9io){:target="_blank"}.
 
-
 ## TAships
 I TA'd 6 courses at IIT Bombay, and I enjoyed this experience a lot. Among other things, I was involved in conducting tutorials (recitations), grading assignments and examination papers, and clearing student queries personally. The courses I TA'd for are:
 1. MA109 (Calculus), Fall 2021

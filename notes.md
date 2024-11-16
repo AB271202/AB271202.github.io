@@ -7,15 +7,18 @@ Here are some expository writings and presentations of mine over the years.
 Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
 
 ## Presentations
-1. [Quantum Money](./Presentations/Quantum_Money.pdf){:target="_blank"} [Description](#){:style="cursor: pointer;" onclick='myFunction("quantum_money")'}
+
+1. [Quantum Money](./Presentations/Quantum_Money.pdf){:target="_blank"} [(Description)](https://example.com/quantum_money){:style="cursor: pointer;" onclick='myFunction("quantum_money")'}
     <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_money">
-        Prepared a presentation on quantum money based on [this](https://cacm.acm.org/research/quantum-money/) article.
-    </div>
-2. [Quantum Logspace Computations are Verifiable](./Presentations/QL_Verification.pdf){:target="_blank"} [Description](#){:style="cursor: pointer;" onclick='myFunction("ql_verif")'}
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ql_verif">
-        Prepared a presentation on QL Verification based on [this](https://arxiv.org/pdf/2307.11083) paper.
+        Prepared a presentation on quantum money based on <a href = "https://cacm.acm.org/research/quantum-money/">this</a> article.
     </div>
 
+2. [Quantum Logspace Computations are Verifiable](./Presentations/QL_Verification.pdf){:target="_blank"} [(Description)](https://example.com/ql_verif){:style="cursor: pointer;" onclick='myFunction("ql_verif")'}
+    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ql_verif">
+        Prepared a presentation on QL Verification based on <a href="https://arxiv.org/pdf/2307.11083">this</a> paper.
+    </div>
+
+## Undergraduate Writings
 
 <!-- <h2>Undergraduate Writings</h2>
 <ol type="1">

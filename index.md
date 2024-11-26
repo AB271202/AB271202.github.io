@@ -28,6 +28,7 @@ title: Home
             I'm Anish Banerjee, a final year undergraduate in Computer Science and Engineering at the Indian Institute of Technology, Delhi. <br>
             You can navigate the webpage by clicking on the sidebar (top left corner).<br>
             I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
+            Find my CV <a href = "./Anish_CV.pdf">here</a>.
         </div>
     </div>
 </div>

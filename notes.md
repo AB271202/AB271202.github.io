@@ -20,7 +20,7 @@ title: Writings
 
 Here are some expository writings and presentations of mine over the years.
 
-Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
+Click on the links to get the PDFs, and double click on the "Description" tag to get a brief abstract of the write-up.
 
 ## Undergraduate Writings
 

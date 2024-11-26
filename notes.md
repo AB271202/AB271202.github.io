@@ -2,6 +2,22 @@
 layout: page
 title: Writings
 ---
+<style>
+    div.descript {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        width: 100%;
+        float: center;
+        display: none;
+        font-size: medium;
+        background-color: #f0ffff;
+        margin-left: 0;
+        padding: 10px;
+        text-align: left;
+    }
+</style>
+
 Here are some expository writings and presentations of mine over the years.
 
 Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
@@ -12,7 +28,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>    
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="bqp_verif">
+    <div class="descript" id="bqp_verif">
         Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083'>Prof. Thomas Vidick's course</a>. This work is currently in progress.
     </div>
 
@@ -26,7 +42,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf">
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
     </a>     
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cvqc">
+    <div class="descript" id="cvqc">
         Prepared a report on <a href="https://arxiv.org/abs/1804.01082">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
     </div>
 
@@ -34,7 +50,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>    
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="q_crypto">
+    <div class="descript" id="q_crypto">
         Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home'>this course</a>.
     </div>
 
@@ -44,7 +60,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_money">
+    <div class="descript" id="quantum_money">
         Gave an introductory talk on quantum money based on <a href = "https://cacm.acm.org/research/quantum-money/">this</a> article. This was done as a part of my course [COQ301] Seminar Course.
     </div>
 
@@ -52,7 +68,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" onclick='myFunction("ql_verif")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>    
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ql_verif">
+    <div class="descript" id="ql_verif">
         Prepared a presentation on QL Verification based on <a href="https://arxiv.org/pdf/2307.11083">this</a> paper. This was done as a part of my course [COQ301] Seminar Course.
     </div>
 
@@ -60,7 +76,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <a style="cursor: pointer;" onclick='myFunction("quantum_shannon")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_shannon">
+    <div class="descript" id="quantum_shannon">
         Presented a overview of Quantum Shannon Theory as a part of my course [ELL714] Basic Information Theory.
     </div>
 
@@ -293,40 +309,6 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
             id="dfa_desc">
             I came up with a useful trick to prove the regularity of languages, which simplifies many typical exercises
             in an automata theory course.
-        </div>
-    </li>
-</ol> -->
-
-<!-- <h2>High School and Early Undergraduate Writings</h2>
-<ol type="1">
-    <li>
-        <a href="./High_School/Dense_divisors_of_a_null_matrix.pdf" target="_blank">Dense Divisors of the Null Matrix</a> <a style="cursor: pointer;" onclick='myFunction("ddnllm_desc")'><span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span></a><br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ddnllm_desc">
-            Proved quick bound regarding the density (defined as the number of non-zero entries of a matrix divided by the size of total number of entries in the matrix) of matrices which multiply with each other to give the null matrix.        
-        </div>
-    </li>
-    <li>
-        <a href="./High_School/A_Number_Theory_Theorem.pdf" target="_blank">A Number Theoretic Identity</a> <a style="cursor: pointer;" onclick='myFunction("ntt_desc")'><span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span></a><br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ntt_desc">
-            Proved an amusing number theoretic identity by counting the number of edges of a certain poset.   
-        </div>
-    </li>
-    <li>
-        <a href="./High_School/Fullerenes_CALE_Submission.pdf" target="_blank">Fullerenes</a> <a style="cursor: pointer;" onclick='myFunction("full_desc")'><span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span></a><br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="full_desc">
-            Wrote an article explaining why all fullerenes have exactly 12 pentagonal faces.
-        </div>
-    </li>
-    <li>
-        <a href="./High_School/silicates_CALE_Submission.pdf" target="_blank">Silicates</a> <a style="cursor: pointer;" onclick='myFunction("sil_desc")'><span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span></a><br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="sil_desc">
-            Calculated the exact formulae of various silicate polymers.
-        </div>
-    </li>
-    <li>
-        <a href="./High_School/CopperCompoundColors.pdf" target="_blank">Copper Complexes</a> <a style="cursor: pointer;" onclick='myFunction("cop_desc")'><span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span></a><br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cop_desc">
-            Verified the predictions of Crystal Field Theory regarding the colors of copper complexes.
         </div>
     </li>
 </ol> -->

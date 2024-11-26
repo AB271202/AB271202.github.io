@@ -3,6 +3,9 @@ layout: page
 title: Teaching and Service
 ---
 
+## TAships
+I TA'd for [COL202 (Discrete Mathematical Structures), Fall 2024](https://web.iitd.ac.in/~kvenkata/courses/COL202_2401.html) at IIT Delhi, and I enjoyed this experience a lot. Among other things, I was involved in conducting tutorials (recitations), providing feedback on assignments, and clearing student queries personally.
+
 <!-- ## Talks and Outreach
 1. Instructed students (grades 8-12) on polynomials and functional equations for Math Olympiads, at a Mathematics Olympiad Orientation Program (December '23) conducted by AEES. Find the recordings of my talks [here](https://www.youtube.com/watch?v=wlj1LZDXABU){:target="_blank"}, and [here](https://www.youtube.com/watch?v=Y1wt6IJM9io){:target="_blank"}.
 

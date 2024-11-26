@@ -19,16 +19,16 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
 2. [Classical Verification of Quantum Computation](./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf)
     <a style="cursor: pointer;" onclick='myFunction("cvqc")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>    
-    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cvqc">
-        Prepared a report on <a href="https://arxiv.org/abs/1804.01082">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
-    </div>
+    </a>
     <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf">
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 1)</span>
     </a> 
     <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf">
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
-    </a> 
+    </a>     
+    <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cvqc">
+        Prepared a report on <a href="https://arxiv.org/abs/1804.01082">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
+    </div>
 
 3. [Quantum Cryptography](./Expository_Writings/Quantum_Cryptography.pdf)
     <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>

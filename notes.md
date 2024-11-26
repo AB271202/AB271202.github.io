@@ -24,7 +24,7 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
 
 ## Undergraduate Writings
 
-1. [Interactive Proofs for Quantum Devices](./Expository_Writings/BQP_Verification.pdf)
+1. [Interactive Proofs for Quantum Devices](./Expository_Writings/BQP_Verification.pdf){:target="_blank"}
     <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>    
@@ -32,21 +32,21 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
         Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083'>Prof. Thomas Vidick's course</a>. This work is currently in progress.
     </div>
 
-2. [Classical Verification of Quantum Computation](./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf)
+2. [Classical Verification of Quantum Computation](./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf){:target="_blank"}
     <a style="cursor: pointer;" onclick='myFunction("cvqc")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>
-    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf">
+    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf" target=blank>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 1)</span>
     </a> 
-    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf">
+    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf" target=blank>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
     </a>     
     <div class="descript" id="cvqc">
         Prepared a report on <a href="https://arxiv.org/abs/1804.01082">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
     </div>
 
-3. [Quantum Cryptography](./Expository_Writings/Quantum_Cryptography.pdf)
+3. [Quantum Cryptography](./Expository_Writings/Quantum_Cryptography.pdf){:target="_blank"}
     <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
         <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
     </a>    

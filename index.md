@@ -46,5 +46,5 @@ title: Home
 You can contact me at <code>firstnamelastname2002@gmail.com</code>.
 <br><br><br>
 A big thanks to <a href="https://arponbasu.github.io/">Arpon Basu</a> for lending his website template.
- <!-- Also, thanks to <a href = "https://shankhgupta.github.io/">Shankh Gupta</a> for designing the favicon! -->
+ Also, thanks to <a href = "https://shankhgupta.github.io/">Shankh Gupta</a> for designing the favicon!
 <br><br>

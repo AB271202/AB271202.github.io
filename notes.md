@@ -80,7 +80,7 @@ Click on the links to get the PDFs, and double click on the "Description" tag to
         Presented a overview of Quantum Shannon Theory as a part of my course [ELL714] Basic Information Theory.
     </div>
 
-## 
+<!-- ##  -->
 
 <!-- <h2>Undergraduate Writings</h2>
 <ol type="1">

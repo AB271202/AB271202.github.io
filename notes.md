@@ -16,6 +16,11 @@ title: Writings
         padding: 10px;
         text-align: left;
     }
+    span.addlinks {
+        font-family: sans-serif, 'Open Sans';
+        color: #999;
+        font-size: 15px;
+    }
 </style>
 
 Here are some expository writings and presentations of mine over the years.
@@ -28,36 +33,36 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
     <li>
         <a href="./Expository_Writings/BQP_Verification.pdf" target="_blank">Interactive Proofs for Quantum Devices</a>
         <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="bqp_verif">
+        <div class="descript" id="bqp_verif">
             Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083' target="_blank">Prof. Thomas Vidick's course</a>. This work is currently in progress.
         </div>
     </li>
     <li>
         <a href="./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf" target="_blank">Classical Verification of Quantum Computation</a>
         <a style="cursor: pointer;" onclick='myFunction("cvqc")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
         </a>
         <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf" target="_blank">
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 1)</span>
+            <span class="addlinks">(Slides 1)</span>
         </a>
         <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf" target="_blank">
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
+            <span class="addlinks">(Slides 2)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cvqc">
+        <div class="descript" id="cvqc">
             Prepared a report on <a href="https://arxiv.org/abs/1804.01082" target="_blank">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
         </div>
     </li>
     <li>
         <a href="./Expository_Writings/Quantum_Cryptography.pdf" target="_blank">Quantum Cryptography</a>
         <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="q_crypto">
+        <div class="descript" id="q_crypto">
             Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home' target="_blank">this course</a>.
         </div>
     </li>
@@ -68,32 +73,52 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
 
 <ol type="1">
     <li>
-        <a href="./Presentations/Quantum_Money.pdf" target="_blank">Quantum Money</a>
+        BTech Project : Cryptographic Proofs in the Quantum World
         <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
+        </a>
+        <a style="cursor: pointer;" href="./Presentations/Non-Committing_Encryption.pdf" target="_blank">
+            <span class="addlinks">(Slides 1)</span>
+        </a>
+        <a style="cursor: pointer;" href="./Presentations/Cryptographic_Proofs_in_the_Quantum_World.pdf" target="_blank">
+            <span class="addlinks">(Slides 2)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_money">
+        <div class="descript" id="quantum_money">
+            Presentations for my Bachelor's thesis (ongoing) on the topic of <b>Cryptographic Proofs in the Quantum World </b> under the guidance of <a target="_blank" href="https://www.cse.iitd.ac.in/~kvenkata">Prof. Venkata Koppula</a> and <a target="_blank" href="https://mahe94.github.io/">Dr. Mahesh Sreekumar Rajarshee</a> in collaboration with <a target="_blank" href="https://shankhgupta.github.io">Shankh Gupta</a>. We focused on the <i>Quantum Random Oracle Model</i> and <i>Minimal Assumptions for Quantum Cryptography</i>.
+            <br>
+            The classical random oracle model has proven to be of immense utility in proving a cryptographic scheme to be secure against generic attacks. However, these proofs stop working if we allow an adversary to have quantum access to the oracles, primarily because they can query it in superposition. Several techniques have been developed to adapt cryptographic proofs to the quantum setting, including history-free reductions <a target="_blank" href = "http://dx.doi.org/10.1007/978-3-642-25385-0_3">[BDF+11]</a>, one-way-to-hiding <a target="_blank" href = "https://eprint.iacr.org/2014/118">[Unr14]</a>, and compressed oracles <a target="_blank" href = "https://eprint.iacr.org/2018/276">[Zha19]</a>. In this project, we began by studying these techniques in depth and then applied the one-way-to-hiding lemma to prove the security of Nielsen's non-committing encryption scheme <a target="_blank" href = "https://link.springer.com/content/pdf/10.1007/3-540-45708-9_8.pdf">[Nie02]</a> in the quantum random oracle model.
+            <br>
+            This investigation into adapting classical techniques for quantum settings naturally raised broader questions about the foundational role of cryptographic primitives in the quantum world. For instance, one-way functions are widely accepted to be the root of classical cryptography, but quantum information reshapes their role. Notably, quantum public-key encryption can be constructed from one-way functions, something that is believed to be impossible for the classical case. Furthermore, evidence suggests that quantum primitives weaker than one-way functions may also exist. Continuing this line of research, we presently investigate whether we can obtain quantum security against chosen ciphertext attacks from one-way functions and possibly weaker assumptions.
+        </div>
+    </li>
+    <li>
+        <a href="./Presentations/Quantum_Money.pdf" target="_blank">Quantum Money</a>
+        <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>
+            <span class="addlinks">(Description)</span>
+        </a>
+        <br>
+        <div class="descript" id="quantum_money">
             Gave an introductory talk on quantum money based on <a href="https://cacm.acm.org/research/quantum-money/" target="_blank">this</a> article. This was done as a part of my course [COQ301] Seminar Course.
         </div>
     </li>
     <li>
         <a href="./Presentations/QL_Verification.pdf" target="_blank">Quantum Logspace Computations are Verifiable</a>
         <a style="cursor: pointer;" onclick='myFunction("ql_verif")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ql_verif">
+        <div class="descript" id="ql_verif">
             Prepared a presentation on QL Verification based on <a href="https://arxiv.org/pdf/2307.11083" target="_blank">this</a> paper. This was done as a part of my course [COQ301] Seminar Course.
         </div>
     </li>
     <li>
         <a href="./Presentations/Quantum_Shannon_Theory.pdf" target="_blank">Quantum Shannon Theory</a>
         <a style="cursor: pointer;" onclick='myFunction("quantum_shannon")'>
-            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+            <span class="addlinks">(Description)</span>
         </a>
         <br>
-        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_shannon">
+        <div class="descript" id="quantum_shannon">
             Presented an overview of Quantum Shannon Theory as a part of my course [ELL714] Basic Information Theory.
         </div>
     </li>

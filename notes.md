@@ -20,65 +20,84 @@ title: Writings
 
 Here are some expository writings and presentations of mine over the years.
 
-Click on the links to get the PDFs, and double click on the "Description" tag to get a brief abstract of the write-up.
+Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
 
 ## Undergraduate Writings
 
-1. [Interactive Proofs for Quantum Devices](./Expository_Writings/BQP_Verification.pdf){:target="_blank"}
-    <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>    
-    <div class="descript" id="bqp_verif">
-        Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083'>Prof. Thomas Vidick's course</a>. This work is currently in progress.
-    </div>
+<ol type="1">
+    <li>
+        <a href="./Expository_Writings/BQP_Verification.pdf" target="_blank">Interactive Proofs for Quantum Devices</a>
+        <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="bqp_verif">
+            Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083' target="_blank">Prof. Thomas Vidick's course</a>. This work is currently in progress.
+        </div>
+    </li>
+    <li>
+        <a href="./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf" target="_blank">Classical Verification of Quantum Computation</a>
+        <a style="cursor: pointer;" onclick='myFunction("cvqc")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf" target="_blank">
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 1)</span>
+        </a>
+        <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf" target="_blank">
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="cvqc">
+            Prepared a report on <a href="https://arxiv.org/abs/1804.01082" target="_blank">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
+        </div>
+    </li>
+    <li>
+        <a href="./Expository_Writings/Quantum_Cryptography.pdf" target="_blank">Quantum Cryptography</a>
+        <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="q_crypto">
+            Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home' target="_blank">this course</a>.
+        </div>
+    </li>
+</ol>
 
-2. [Classical Verification of Quantum Computation](./Expository_Writings/Classical_Verification_of_Quantum_Computation.pdf){:target="_blank"}
-    <a style="cursor: pointer;" onclick='myFunction("cvqc")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>
-    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations.pdf" target=blank>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 1)</span>
-    </a> 
-    <a style="cursor: pointer;" href="./Presentations/Classical_Verification_of_Quantum_Computations_2.pdf" target=blank>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Slides 2)</span>
-    </a>     
-    <div class="descript" id="cvqc">
-        Prepared a report on <a href="https://arxiv.org/abs/1804.01082">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
-    </div>
-
-3. [Quantum Cryptography](./Expository_Writings/Quantum_Cryptography.pdf){:target="_blank"}
-    <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>    
-    <div class="descript" id="q_crypto">
-        Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home'>this course</a>.
-    </div>
 
 ## Presentations
 
-1. [Quantum Money](./Presentations/Quantum_Money.pdf){:target="_blank"}
-    <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>
-    <div class="descript" id="quantum_money">
-        Gave an introductory talk on quantum money based on <a href = "https://cacm.acm.org/research/quantum-money/">this</a> article. This was done as a part of my course [COQ301] Seminar Course.
-    </div>
-
-2. [Quantum Logspace Computations are Verifiable](./Presentations/QL_Verification.pdf){:target="_blank"} 
-    <a style="cursor: pointer;" onclick='myFunction("ql_verif")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>    
-    <div class="descript" id="ql_verif">
-        Prepared a presentation on QL Verification based on <a href="https://arxiv.org/pdf/2307.11083">this</a> paper. This was done as a part of my course [COQ301] Seminar Course.
-    </div>
-
-3. [Quantum Shannon Theory](./Presentations/Quantum_Shannon_Theory.pdf){:target="_blank"}
-    <a style="cursor: pointer;" onclick='myFunction("quantum_shannon")'>
-        <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
-    </a>
-    <div class="descript" id="quantum_shannon">
-        Presented a overview of Quantum Shannon Theory as a part of my course [ELL714] Basic Information Theory.
-    </div>
+<ol type="1">
+    <li>
+        <a href="./Presentations/Quantum_Money.pdf" target="_blank">Quantum Money</a>
+        <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_money">
+            Gave an introductory talk on quantum money based on <a href="https://cacm.acm.org/research/quantum-money/" target="_blank">this</a> article. This was done as a part of my course [COQ301] Seminar Course.
+        </div>
+    </li>
+    <li>
+        <a href="./Presentations/QL_Verification.pdf" target="_blank">Quantum Logspace Computations are Verifiable</a>
+        <a style="cursor: pointer;" onclick='myFunction("ql_verif")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="ql_verif">
+            Prepared a presentation on QL Verification based on <a href="https://arxiv.org/pdf/2307.11083" target="_blank">this</a> paper. This was done as a part of my course [COQ301] Seminar Course.
+        </div>
+    </li>
+    <li>
+        <a href="./Presentations/Quantum_Shannon_Theory.pdf" target="_blank">Quantum Shannon Theory</a>
+        <a style="cursor: pointer;" onclick='myFunction("quantum_shannon")'>
+            <span style="font-family: sans-serif, 'Open Sans';color: #999;font-size: 15px;">(Description)</span>
+        </a>
+        <br>
+        <div style="border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;width:100%;float:center;display:none;font-size:medium;background-color:#f0ffff;margin-left:0;padding:10px;text-align:left;" id="quantum_shannon">
+            Presented an overview of Quantum Shannon Theory as a part of my course [ELL714] Basic Information Theory.
+        </div>
+    </li>
+</ol>
 
 <!-- ##  -->
 

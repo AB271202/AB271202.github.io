@@ -25,11 +25,21 @@ title: Writings
 
 Here are some expository writings and presentations of mine over the years.
 
-Click on the links to get the PDFs, and click on the "Description" tag to get a brief abstract of the write-up.
+Click on the links to get the PDFs, and double-click on the "Description" tag to get a brief abstract of the write-up.
 
 ## Undergraduate Writings
 
 <ol type="1">
+    <li>
+        <a href="./Expository_Writings/Quantum_Cryptography.pdf" target="_blank">Quantum Cryptography</a>
+        <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
+            <span class="addlinks">(Description)</span>
+        </a>
+        <br>
+        <div class="descript" id="q_crypto">
+            Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home' target="_blank">this course</a>.
+        </div>
+    </li>
     <li>
         <a href="./Expository_Writings/BQP_Verification.pdf" target="_blank">Interactive Proofs for Quantum Devices</a>
         <a style="cursor: pointer;" onclick='myFunction("bqp_verif")'>
@@ -54,16 +64,6 @@ Click on the links to get the PDFs, and click on the "Description" tag to get a 
         <br>
         <div class="descript" id="cvqc">
             Prepared a report on <a href="https://arxiv.org/abs/1804.01082" target="_blank">[Mah23]</a>, with a particular focus on the construction of the function families. This was done as a part of my course [COL872] Lattices in Computer Science.
-        </div>
-    </li>
-    <li>
-        <a href="./Expository_Writings/Quantum_Cryptography.pdf" target="_blank">Quantum Cryptography</a>
-        <a style="cursor: pointer;" onclick='myFunction("q_crypto")'>
-            <span class="addlinks">(Description)</span>
-        </a>
-        <br>
-        <div class="descript" id="q_crypto">
-            Prepared an expository write-up as a supplement to an independent study of <a href='https://learning.edx.org/course/course-v1:CaltechDelftX+QuCryptox+3T2018/home' target="_blank">this course</a>.
         </div>
     </li>
 </ol>

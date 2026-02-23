@@ -37,8 +37,8 @@ title: Home
     <div class="col">
         <img src="me.jpeg" alt="Picture" style="width:90%; max-height: 90%;">
         <div>
-            I'm Anish Banerjee, a first-year Ph.D. student in Computer Science at the University of Texas at Austin, where I am advised by Prof. Brent Waters and Prof. David Wu. I am primarily interested in cryptography, both classical and quantum. <br>            
-            I did my undergrad in Computer Science and Engineering at the Indian Institute of Technology, Delhi. <br>
+            I'm Anish Banerjee, a first-year Ph.D. student in Computer Science at the University of Texas at Austin, where I am advised by <a href="https://www.cs.utexas.edu/~bwaters/">Prof. Brent Waters</a> and <a href="https://www.cs.utexas.edu/~dwu4/">Prof. David Wu</a>. I am primarily interested in cryptography, both classical and quantum. <br>            
+            I did my undergrad in Computer Science and Engineering at the Indian Institute of Technology, Delhi, where I was advised by <a href = "https://web.iitd.ac.in/~kvenkata/">Prof. Venkata Koppula</a> <br>
             <!-- You can navigate the webpage by clicking on the sidebar (top left corner).<br> -->
             I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
             Find my CV <a href = "./Anish_CV.pdf">here</a>.

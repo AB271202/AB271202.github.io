@@ -29,7 +29,7 @@ title: Home
             I did my undergrad in Computer Science and Engineering at the Indian Institute of Technology, Delhi, where I was advised by <a href = "https://web.iitd.ac.in/~kvenkata/">Prof. Venkata Koppula.</a> <br>
             <!-- You can navigate the webpage by clicking on the sidebar (top left corner).<br> -->
             I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
-            Find my CV <a href = "./Anish_CV.pdf">here</a>.     
+            <!-- Find my CV <a href = "./Anish_CV.pdf">here</a>.      -->
         </div>
     </div>
 </div>
@@ -41,7 +41,7 @@ title: Home
             I did my undergrad in Computer Science and Engineering at the Indian Institute of Technology, Delhi, where I was advised by <a href = "https://web.iitd.ac.in/~kvenkata/">Prof. Venkata Koppula.</a> <br>
             <!-- You can navigate the webpage by clicking on the sidebar (top left corner).<br> -->
             I've done some expository writing, which you can find out about in the <a href="notes">Expository Writing</a> section.<br>
-            Find my CV <a href = "./Anish_CV.pdf">here</a>.
+            <!-- Find my CV <a href = "./Anish_CV.pdf">here</a>. -->
         </div>
     </div>
 </div>

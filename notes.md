@@ -47,7 +47,8 @@ Click on the links to get the PDFs, and double-click on the "Description" tag to
         </a>
         <br>
         <div class="descript" id="bqp_verif">
-            Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083' target="_blank">Prof. Thomas Vidick's course</a>. This work is currently in progress.
+            Prepared an expository write-up as a supplement to an independent study of <a href='https://arxiv.org/pdf/2307.11083' target="_blank">Prof. Thomas Vidick's course</a>. 
+            <!-- This work is currently in progress. -->
         </div>
     </li>
     <li>
@@ -72,7 +73,7 @@ Click on the links to get the PDFs, and double-click on the "Description" tag to
 ## Presentations
 
 <ol type="1">
-    <li>
+    <!-- <li>
         BTech Project : Cryptographic Proofs in the Quantum World
         <a style="cursor: pointer;" onclick='myFunction("btp")'>
             <span class="addlinks">(Description)</span>
@@ -91,7 +92,7 @@ Click on the links to get the PDFs, and double-click on the "Description" tag to
             <br>
             This investigation into adapting classical techniques for quantum settings naturally raised broader questions about the foundational role of cryptographic primitives in the quantum world. For instance, one-way functions are widely accepted to be the root of classical cryptography, but quantum information reshapes their role. Notably, quantum public-key encryption can be constructed from one-way functions, something that is believed to be impossible for the classical case. Furthermore, evidence suggests that quantum primitives weaker than one-way functions may also exist. Continuing this line of research, we presently investigate whether we can obtain quantum security against chosen ciphertext attacks from one-way functions and possibly weaker assumptions.
         </div>
-    </li>
+    </li> -->
     <li>
         <a href="./Presentations/Quantum_Money.pdf" target="_blank">Quantum Money</a>
         <a style="cursor: pointer;" onclick='myFunction("quantum_money")'>

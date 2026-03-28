@@ -45,7 +45,7 @@ title: Home
         </div>
     </div>
 </div>
-You can contact me at <code>firstnamelastname2002@gmail.com</code>.
+You can contact me at <code>anish@cs.utexas.edu</code>.
 <br><br><br>
 A big thanks to <a href="https://arponbasu.github.io/">Arpon Basu</a> for lending his website template, and to <a href = "https://shankhgupta.github.io/">Shankh Gupta</a> for designing the favicon!
 <br><br>
